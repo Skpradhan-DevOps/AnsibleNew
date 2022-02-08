@@ -5,4 +5,4 @@
     - name: deploy to tomcat server
       copy:
         src: /opt/playbooks/webapp/target/webapp.war
-        dest: /etc/tomcat9/webapps       
+        dest: http://172.31.46.115:8080/       
