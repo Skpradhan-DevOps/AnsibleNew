@@ -4,5 +4,5 @@
   tasks:
     - name: deploy to tomcat server
       copy:
-        src: /var/lib/jenkins/workspace/Ansible-Assignment/hello-world-new/webapp/target/webapp.war
-        dest: http://172.31.46.115:8080/       
+        src: /var/lib/jenkins/workspace/Ansible-Tomcat/hello-world-new/webapp/target/webapp.war
+        dest: /usr/share/tomcat9       
