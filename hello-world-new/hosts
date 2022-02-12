@@ -1,2 +1,2 @@
 [web]
-172.31.46.115 ansible_user=labsuser
+172.31.82.143 ansible_user=ubuntu
